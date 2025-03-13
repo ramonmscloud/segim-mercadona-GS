@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#fileInput {
+    margin-bottom: 20px;
+}
+
+#listContainer {
+    margin-bottom: 20px;
+}
+
+.aisle-header {
+    background-color: #007bff;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+.list-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.list-item.checked {
+    color: #888;
+    text-decoration: line-through;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #ddd;
+    color: #555;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 600px) {
+    .button-container {
+        flex-direction: column;
+    }
+    .button-container button {
+        margin-bottom: 10px;
+    }
+}
