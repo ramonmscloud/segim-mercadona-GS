@@ -1,0 +1,22 @@
+1 - Frutas y Verduras
+Manzanas
+Plátanos
+Tomates
+Peras
+Cebollas
+
+2 - Carnicería
+Pollo
+Carne picada
+Jamón
+
+3 - Lácteos
+Leche
+Yogur
+Queso
+Mantequilla
+
+4 - Panadería
+Pan
+Bollería
+Tostadas
